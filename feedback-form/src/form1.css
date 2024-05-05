@@ -1,0 +1,108 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #0095ffbe 0%, #ffdf6abe 100%);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin-bottom: 0.5em;
+}
+
+.form-wrapper {
+  padding: 1.2rem;
+  background: white;
+  border-radius: 0.5em;
+}
+
+label {
+  font-weight: 600;
+  color: #111;
+  display: block;
+  font-size: 0.8rem;
+}
+
+h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 0.5em;
+}
+
+.rating-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid #007bd1;
+}
+
+input,
+textarea {
+  outline: none;
+  border: 1px solid #696969;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  background-color: #fff;
+  width: 100%;
+}
+
+input {
+  padding-left: 1.8rem;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: end;
+  margin-top: 1em;
+  gap: 0.5em;
+}
+
+.button-wrapper button {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.5em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: white;
+  color: #007bd1;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary:hover {
+  background-color: #e6f0ff;
+}
+
+.btn-primary {
+  background-color: #007bd1;
+  color: white;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.icon-wrapper {
+  position: absolute;
+  top: 55%;
+  left: 0.5em;
+  transform: translateY(-50%);
+}
+
+.input-wrapper {
+  margin-bottom: 0.4rem;
+}
